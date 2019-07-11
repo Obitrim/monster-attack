@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Monster Attack </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+		<meta name="description" content="monster attack game">
+        <meta name="keywords" content="monster, attack, monster-attack, monster attack">
+        
+		<!-- jquery -->
+		<script src="./scripts/jquery-core.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/default.css">
+	</head>
+	<body>
+		
+		<div class="wrapper">
+			<header>
+				<h3> Monster Attack </h3>
+				<div class="score-board">
+					<div class="row">
+						<div class="col">
+							Player
+						</div>
+						<div class="col-7">
+							<div class="health-bar">
+								<div class="player-health"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							Monster
+						</div>
+						<div>
+							<div class="health-bar">
+								<div class="monster-health"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<div class="play-btns">
+				<button class="btn btn-attack">Attack</button>
+				<button class="btn btn-special-attack"> special Attack </button>
+				<button class="btn btn-heal"> start </button>
+				<button class="btn btn-heal"> Heal </button>
+				<button class="btn btn-stop"> stop </button>
+			</div>
+
+			<div class="attack-logs">
+				<ul class="logs">
+				</ul>
+			</div>
+		</div>
+
+		<!-- jquery -->
+		<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script> -->
+
+		<script src="./scripts/monster.js"></script>
+	</body>
+
+</html>
